@@ -9,7 +9,7 @@ add:
 
 commit:
 	@read -p "comments :" comment
-	git commit -m $comment
+	git commit -m comment
 
 push:
 	git push
