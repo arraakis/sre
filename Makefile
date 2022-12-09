@@ -8,7 +8,7 @@ add:
 	git add .
 
 commit:
-	@read -p "comments :" comment; \
+	@read -p "Write a Git Commit Message :" comment; \
 	git commit -m "$$comment"
 
 push:
