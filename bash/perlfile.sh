@@ -16,7 +16,7 @@ main () {
     if [ ! -f "$FILE" ]; then
         
         # add shebang line and pragma
-        cat > $FILE <<- EOF
+cat > $FILE <<- EOF
 #!/usr/bin/env bash
 
 
