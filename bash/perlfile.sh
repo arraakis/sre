@@ -8,9 +8,14 @@ read answer
 
 FILE=$(pwd)/$answer
 
-createfile () {
+main
+
+# main function
+main () {
+    # if FILE does not exist
     if [ ! -f "$FILE" ]; then
         
+        # add shebang line and pragma
         cat > $FILE <<- EOF
 #!/usr/bin/env bash
 
@@ -23,5 +28,3 @@ EOF
         echo "Your file $(basename $FILE) already exists"
     fi
 }
-
-createfile
