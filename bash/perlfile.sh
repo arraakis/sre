@@ -8,7 +8,6 @@ read answer
 
 FILE=$(pwd)/$answer
 
-main
 
 # main function
 main () {
@@ -28,3 +27,5 @@ EOF
         echo "Your file $(basename $FILE) already exists"
     fi
 }
+
+main
