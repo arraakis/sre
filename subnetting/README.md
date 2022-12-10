@@ -1,5 +1,6 @@
 # Subnetting
-
+- A subnet is a logical subdivsion of an IP network. The process of dividing a network into two or more network is called subnetting.
+- 
 ### Find your ip (mac)
 
 ```sh
@@ -10,3 +11,4 @@
 - Each section of the IP address is known as octets (8 bits)
 - First three portion (`192.168.1..`) are the `network portion`
 - The last portion (`.30`) is the `host portion`.
+- Each portion can have values ranging from `0-255`.
