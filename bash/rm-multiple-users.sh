@@ -1,6 +1,9 @@
 #!/usr/bin/env bash
 
-
+###############################################################################################################
+# DESC: remove multiple users 
+# WHO: Leyth
+###############################################################################################################
 # content of file rm-users.txt
 # 1. joe
 # 2. hai
@@ -8,6 +11,7 @@
 # 4. bar
 
 cat rm-users.txt | while read user
+
 do
         echo "Removing: ${user}"
         userdel -r "${user}"
