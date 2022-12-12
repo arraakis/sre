@@ -1,3 +1,3 @@
 #!/usr/bin/env bash
 
-echo "Select from the options belw: "
+echo "Select from the options below: "
