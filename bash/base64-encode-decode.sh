@@ -9,9 +9,11 @@ read option
 case $option in
 1)
    read -p "Enter username " username
-   read -sp "Enter password " password
+   read -sp "Enter password" password
+   
    echo
-   creds=$(echo -n "$username:$password" | base64);
+   
+   creds=$(echo -n "$username:$password" | base64)
    echo "Your base64 encoded string is : $creds";;
 2)
     read -p "Enter string to decode " string
@@ -20,8 +22,4 @@ case $option in
 *)
     echo "not a valid option";;
 esac
-
-
-
-
 
