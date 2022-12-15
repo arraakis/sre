@@ -43,9 +43,10 @@ def system_load(host):
         server = 'pi4'
     else:
         server = 'pi3'
+    # send data to
     data = f"loadavg,host={server},ip='{host}' minute1={minute_one.strip()}, minute5={minute_five.strip()}, minute15={minute_fifteen.strip()} {time_nanosec}"
     res.append(data)
-    print(res)
+    # print(res)
     write_to_influx(res)
     
 
