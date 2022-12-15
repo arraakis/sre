@@ -1,1 +1,1 @@
-*/15 * * * *  parallel -a tmp/hosts  /usr/bin/python uptime_load_averages.py
+*/15 * * * *  parallel -a tmp/hosts  /usr/bin/python tmp/uptime_load_averages.py
