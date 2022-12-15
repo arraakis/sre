@@ -24,7 +24,6 @@ def write_to_influx(loadavg):
     write_api.write(bucket, org, data, time_precision='ms', protocol='line')
     
 
-# parallel -j 2 -a hosts ./pi-uptime.pl {}
 def system_load(host):
     res = []
     server = ''
