@@ -1,4 +1,4 @@
-#!/usr/bin/env python
+#!/usr/bin/python
 from datetime import datetime
 import time
 from influxdb_client import InfluxDBClient, Point, WritePrecision
