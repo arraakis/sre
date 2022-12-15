@@ -19,3 +19,17 @@
 -  build an internal process that avoids unnecessary delays
 -  Improve the speed of diagnosing and reporting a failure
 -  Devlope maintenance plans for critical assets
+
+
+
+## Workflow for building new Automation
+
+1. Understand the requirements
+2. Build Automation
+3. Build test cases
+4. Test automation in test environment
+5. Deploy to intended environment
+6. monitor the first couple of runs in production
+   
+
+## Incident Response Automation
